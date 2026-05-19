@@ -32,7 +32,7 @@ const AccountHeadSchema = new mongoose.Schema({
     type: String,
     enum: [
       "Current Asset", "Fixed Asset", "Other Asset",
-      "Current Liability", "Long Term Liability",
+      "Current Liability", "Long Term Liability","Accounts Receivable",
       "Capital", "Reserve",
       "Direct Income", "Indirect Income",
       "Direct Expense", "Indirect Expense",
